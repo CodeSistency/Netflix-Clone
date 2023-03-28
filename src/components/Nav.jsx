@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+import { useState, useEffect } from 'react';
 
 function Nav() {
 
@@ -7,7 +7,7 @@ function Nav() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 1700) {
         handleShow(true)
       } else handleShow(false);
     });
